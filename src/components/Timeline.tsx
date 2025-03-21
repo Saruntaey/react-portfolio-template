@@ -72,8 +72,8 @@ function Timeline() {
 								contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
 								contentArrowStyle={{ borderRight: '7px solid  white' }}
 								date={h.date}
-								iconStyle={{ background: h.type == "work" ? '#5000ca' : '#eb3d34', color: 'rgb(39, 40, 34)' }}
-								icon={<FontAwesomeIcon icon={h.type == "work" ? faBriefcase : faGraduationCap} />}
+								iconStyle={{ background: h.type === "work" ? '#5000ca' : '#eb3d34', color: 'rgb(39, 40, 34)' }}
+								icon={<FontAwesomeIcon icon={h.type === "work" ? faBriefcase : faGraduationCap} />}
 							>
 								<h3 className="vertical-timeline-element-title">{h.title}</h3>
 								<h4 className="vertical-timeline-element-subtitle">{h.company}</h4>
