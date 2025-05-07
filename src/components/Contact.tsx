@@ -23,7 +23,7 @@ function Contact() {
 						<SvgIcon style={{ marginRight: 8 }}>
 							<FontAwesomeIcon icon={faEnvelope} />
 						</SvgIcon>
-						sarun.tapee42@gmail.com
+						sarun.t3e@gmail.com
 					</p>
 				</div>
 			</div>

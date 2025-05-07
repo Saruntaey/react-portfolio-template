@@ -46,11 +46,12 @@ function Expertise() {
 			<div className="skills-container">
 				<h1>Expertise</h1>
 				<p style={{ marginBottom: 40 }}>
-					Results-driven Full Stack Developer in designing, developing, and optimizing e-commerce platforms within Agile
-					environments. Proficient in Golang, TypeScript, gRPC, GraphQL, and React, with strong expertise in microservices
-					architecture, cloud computing, and database management (MongoDB, PostgreSQL). Adept at building scalable, resilient
-					applications and collaborating effectively across teams to achieve project goals. Passionate about clean, maintainable
-					code and innovative problem-solving.
+					<b>Naval Architect & Full Stack Developer</b> with 5 years of experience, including 3+ years in Naval
+					Architecture and 2+ years in Full Stack Development, specializing in e-commerce platforms and Agile
+					environments. Skilled in Golang, TypeScript, React, gRPC, and GraphQL, with deep expertise in microservices,
+					cloud computing, and database management (MongoDB, PostgreSQL). Proven ability to design scalable,
+					high-performance applications while ensuring clean, maintainable code. Strong collaborator with cross-functional
+					teams to drive project success. Passionate about innovative problem-solving and optimizing system efficiency.
 				</p>
 				<div className="skills-grid">
 					{skills.map((s, idx) => (
